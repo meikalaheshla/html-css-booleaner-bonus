@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    width: 1080px;
+}
+
+/*logo and banner*/
+
+header {
+    height: 150px;
+    background-image: url(../img/pattern.png);
+    background-color: dodgerblue;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+
+
+}
+
+
+
+#logo {
+    height: 50px;
+    margin-top: 75px;
+    margin-left: 411.500px;
+
+}
+
+/*title and img*/
+main {
+    position: relative;
+    top: 200px;
+}
+
+h1 {
+
+    font-size: 40px;
+}
+
+#autor {
+    color: grey;
+    display: block;
+}
+
+#referal-link {
+    text-decoration: none;
+    color: rgb(17, 154, 213);
+}
+
+#date {
+    color: grey;
+    display: block;
+    font: size 0.5em;
+    margin-bottom: 20px;
+
+}
+
+figcaption {
+    font-size: small;
+
+}
+
+/* Main article*/
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.enfasis {
+    background-color: yellow;
+}
+
+/* Data Tab*/
+
+table {
+    margin-top: 30px;
+    text-align: justify;
+    border-spacing: 0;
+    margin-bottom: 30px;
+
+
+}
+
+th {
+    background-color: dodgerblue;
+    color: aliceblue;
+
+}
+
+tr {
+    background-color: aquamarine;
+
+}
+
+
+
+.table-detail {
+    width: 50%;
+}
+
+#important-data {
+    background-color: white;
+}
+
+/*footer img and text*/
+
+footer {
+    margin-top: 30px;
+    position: relative;
+    top: 200px;
+}
+
+.hint {
+    color: rgb(131, 118, 118);
+
+}
+
+.article-hint {
+    height: 130px;
+    width: 180px;
+    background-position: center;
+
+    margin-top: 20px;
+}
+
+.top-hint {
+    background-image: url(../img/monitor.jpg);
+
+}
+
+.bottom-hint {
+    background-image: url(../img/graph.jpg);
+}
+
+.img-description {
+    color: white;
+    font-weight: bold;
+    line-height: 40px;
+}
